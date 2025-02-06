@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Google search for Musa and navigate to Wikipedia', async ({ page }) => {
+test('Google search for Musa and navigate to Wikipedia.', async ({ page }) => {
   // Step 1: Navigate to Google and wait for the page to load
   await page.goto('https://www.google.com/');
   await page.waitForLoadState('domcontentloaded');  // Ensure the DOM is fully loaded
